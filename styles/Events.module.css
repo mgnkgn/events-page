@@ -54,7 +54,11 @@
 
 .imgEvent {
 }
-
+@-moz-document url-prefix() {
+  .imgh3 {
+    width: -moz-max-content;
+  }
+}
 .imgh3 {
   font-family: "Galano Grotesque";
   font-style: normal;
