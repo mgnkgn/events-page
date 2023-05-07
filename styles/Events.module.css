@@ -1,0 +1,498 @@
+.mainCt {
+  padding-left: 188px;
+  padding-right: 188px;
+  margin-top: 60px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.eventCt {
+  border: 0.5px solid rgb(172, 169, 169);
+  height: 204px;
+  display: flex;
+  position: relative;
+}
+.blackSide {
+  background: #000000;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+}
+.blackh3 {
+  font-family: "Acme";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ff0d87;
+  width: 32px;
+  margin-left: 37px;
+  padding-top: 45px;
+  padding-bottom: 63px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tiyatroBg {
+  background: #b77cb8 !important;
+}
+.sinemaBg {
+  background: #f07266 !important;
+}
+.standupBg {
+  background: #f19653 !important;
+}
+.imgCt {
+  z-index: 3;
+  margin-left: 108px;
+  display: flex;
+  align-items: center;
+}
+
+.imgEvent {
+}
+
+.imgh3 {
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 20px;
+  gap: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  width: 111px;
+  height: 22px;
+  left: 92px;
+  top: 32px;
+  background: #f07266;
+  justify-content: flex-start;
+}
+
+.middleCol {
+  margin-left: 16px;
+  margin-top: 29px;
+  margin-bottom: 27px;
+  width: 416px;
+}
+.colpSpan {
+  display: none;
+}
+.colh3 {
+  font-family: "Acme";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-bottom: 10px;
+}
+.colh4 {
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 10px;
+  color: #9c9c9c;
+  display: flex;
+  align-items: center;
+}
+
+.colp {
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  height: 78px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* last column */
+.lastCol {
+  margin-left: 33px;
+  margin-top: 60px;
+  margin-right: 17px;
+  margin-bottom: 60px;
+}
+.pinkBox {
+  width: 166px;
+  height: 48px;
+  background: #ff0d87;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.pinkBox:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.pinkBoxP {
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.takvim {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  transition: all 0.2s;
+}
+.takvim:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.takvimP span {
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  width: 26px;
+  height: 26px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-family: "Galano Grotesque";
+}
+.takvimP {
+  font-family: "Galano Grotesque";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  gap: 10px;
+  color: #000000;
+}
+.takvimP p {
+}
+
+/* categories */
+
+.imgLocation {
+}
+
+.blackh3Span {
+  /* font-size: inherit;
+  font-style: inherit; */
+}
+
+@media screen and (max-width: 1200px) {
+  .colh4 {
+    font-size: 11px;
+  }
+  .colp {
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .colh3 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1128px) {
+  .imgLocation {
+    width: 12px;
+    height: 12px;
+  }
+  .colh4 {
+    font-size: 7px;
+  }
+  .colp {
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .colh3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .pinkBox {
+    width: 125px;
+    height: 48px;
+    background: #ff0d87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  .takvimP p {
+    font-size: 12px;
+  }
+  .takvimP span {
+    width: 20px;
+    height: 20px;
+  }
+  .imgEvent {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .pinkBox {
+    width: 75px;
+    height: 48px;
+    background: #ff0d87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  .pinkBoxP {
+    font-size: 10px;
+  }
+  .takvimP {
+    gap: 5px;
+    align-items: center;
+  }
+  .takvimP p {
+    font-size: 7px;
+  }
+  .takvimP span {
+    width: 15px;
+    height: 15px;
+  }
+  .imgEvent {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 906px) {
+  .colh3 {
+    line-height: 17px;
+  }
+  .colh4 {
+    font-size: 6px;
+  }
+  .imgEvent {
+    width: 150px;
+  }
+  .blackh3 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 875px) {
+  .pinkBox {
+    width: 50px;
+    margin: 0 auto;
+  }
+  .takvimP p {
+    font-size: 6px;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 830px) {
+  .eventCt {
+    width: 550px;
+    margin-left: -70px;
+  }
+  .colh3 {
+  }
+}
+@media screen and (max-width: 830px) {
+  .eventCt {
+    transform: scale(0.9);
+    margin-left: -120px;
+  }
+}
+@media screen and (max-width: 377px) {
+  .mainCt {
+    padding-left: 16px;
+    padding-right: 15px;
+  }
+  .eventCt {
+    transform: scale(1);
+    margin-left: 0px;
+    width: 344px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .blackSide {
+    width: 344px;
+    height: 212px;
+    position: absolute;
+  }
+  .imgCt {
+    z-index: 3;
+    margin-left: 16px;
+    margin-right: 17px;
+    margin-top: 54px;
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+  }
+  .imgEvent {
+    width: 311px;
+    height: 173px;
+    margin-right: auto;
+    padding-left: 0;
+  }
+  .imgh3 {
+    left: -10px;
+  }
+  .blackh3 {
+    width: 170px !important;
+    height: 11px !important;
+    top: -19px;
+    left: 40px;
+    position: absolute;
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 34px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    color: #9c9c9c;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .blackh3 .blackh3Span {
+    margin-left: 20px;
+    font-size: 20px !important;
+    background: red !important;
+    padding-right: 10px;
+    color: #ffffff;
+  }
+  .colh3 {
+    width: 277px;
+    height: 52px;
+    font-family: "Acme";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+    margin-right: 34px;
+    color: #000000;
+  }
+  .colp {
+    width: 154px;
+    height: 26px;
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000000;
+    margin-left: 33px;
+    margin-right: 34px;
+  }
+  .colh4 {
+    display: none;
+  }
+  .colpSpan {
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    display: block;
+    position: absolute;
+    top: 324px;
+    left: 210px;
+    cursor: pointer;
+  }
+  .lastCol {
+    margin-left: 33px;
+    margin-top: -20px;
+    margin-right: 17px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 282px;
+    gap: 16px;
+    justify-content: space-between;
+  }
+  .pinkBox {
+    width: 147px;
+    height: 48px;
+    margin-left: 17px;
+  }
+  .pinkBoxP {
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  .takvim {
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 135px;
+  }
+  .takvimP p {
+    font-family: "Galano Grotesque";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 26px;
+    color: #000000;
+  }
+}
